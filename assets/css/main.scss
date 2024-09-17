@@ -1,0 +1,232 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto';
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, li {
+    list-style: none;
+}
+
+.btn {
+    color: #fff;
+    background-color: #F2726F;
+    padding: 15px 18px;
+    border-radius: 8px;
+}
+
+.container {
+    max-width: 1440px;
+    padding: 0 20px;
+    margin: 0 auto; 
+}
+
+/*f2627f*/
+
+.main {
+    background-image: url(../img/duotone.png);
+    height: 800px;
+    background-position: center ;
+    background-size: cover;
+
+    &__title {
+        font-size: 56px;
+        color: #fff;
+        padding-top: 280px;
+        margin-bottom: 50px;
+    }
+
+    
+}
+
+
+.about {
+
+    &__wrap {
+        height: 700px;
+        background-color: #5D62B5;
+        border-radius: 47px;
+        margin-top: -80px;
+        position: relative;
+    }
+
+    &__dots {
+        position: absolute;
+        top: -110px;
+        right: -70px;
+    }
+
+    &__dog {
+        border-radius: 40px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -120px;
+        z-index: 1;
+
+    }
+
+    &__blob {
+        position: absolute;
+        bottom: -150px;
+        right: 600px;
+    }
+
+    &__span {
+        color: #fff;
+    }
+
+    &__name {
+        color: #fff;
+        padding-top: 100px;
+        padding-left: 90px;
+
+        img {
+            position: relative;
+            top: 7px;
+        }
+    }
+
+    &__title {
+        padding-left: 90px;
+        color: #fff;
+        font-size: 36px;
+        width: 580px;
+        margin-top: 35px;
+    }
+
+    &__text {
+        padding-left: 90px;
+        margin-top: 35px;
+        color: #fff;
+        line-height: 1.5;
+        padding-right: 90px;
+    }
+
+}
+
+.promise {
+    padding-top: 200px;
+    padding-bottom: 150px;
+
+    &__name {
+        color: #5D62B5;
+        font-size: 12px;    
+
+        img {
+            position: relative;
+            top: 8px;
+        }
+    }
+
+    &__title {
+        color: #000;
+        font-size: 36px;
+        font-weight: 800;
+        margin-top: 35px;
+    }
+
+    &__wrap {
+        display: flex;
+        margin-top: 100px;
+    }
+
+    &__card {
+        display: flex;
+        gap: 27px;
+
+        img {
+            position: relative;
+            top: -60px;
+        }
+    }
+
+    &__subtitle {
+        color: #F2726F;
+        font-size: 19px;
+        margin-bottom: 20px;
+        font-weight: 800;
+    }
+
+    &__text {
+        color: #4B4B4B;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+}
+
+.nemo {
+
+    padding-bottom: 100px;
+    z-index: -5;
+
+    &__wrap {
+        background-color: #29C3BE;
+        height: 500px; 
+        position: relative;
+        z-index: -4;
+    }
+
+    &__blob {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 0;
+    }
+
+    &__dots {
+        position: absolute;
+        bottom: 60px;
+
+        z-index: -3;
+    }
+
+    &__pup {
+        position: absolute;
+        bottom: 0;
+        left: 20px;
+        z-index: 1;
+    }
+
+    &__line {
+        position: absolute;
+        top: 0;
+        right: 80px;
+    }
+
+    &__ball {
+        position: absolute;
+        top: 100px;
+        right: 55px;    
+    }
+
+    &__title {
+        width: 500px;
+        padding-left: 90px;
+        color: #fff;
+        font-size: 36px;
+        width: 580px;
+        margin-top: 35px;
+        position: absolute;
+        top: 112px;
+        right: 110px;
+
+    }   
+
+    &__btn {
+        position: absolute;
+        top: 300px;
+        right: 500px;
+    }
+}
+

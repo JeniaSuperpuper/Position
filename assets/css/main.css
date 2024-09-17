@@ -1,0 +1,192 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto";
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+a {
+  text-decoration: none;
+}
+
+ul, li {
+  list-style: none;
+}
+
+.btn {
+  color: #fff;
+  background-color: #F2726F;
+  padding: 15px 18px;
+  border-radius: 8px;
+}
+
+.container {
+  max-width: 1440px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+/*f2627f*/
+.main {
+  background-image: url(../img/duotone.png);
+  height: 800px;
+  background-position: center;
+  background-size: cover;
+}
+.main__title {
+  font-size: 56px;
+  color: #fff;
+  padding-top: 280px;
+  margin-bottom: 50px;
+}
+
+.about__wrap {
+  height: 700px;
+  background-color: #5D62B5;
+  border-radius: 47px;
+  margin-top: -80px;
+  position: relative;
+}
+.about__dots {
+  position: absolute;
+  top: -110px;
+  right: -70px;
+}
+.about__dog {
+  border-radius: 40px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -120px;
+  z-index: 1;
+}
+.about__blob {
+  position: absolute;
+  bottom: -150px;
+  right: 600px;
+}
+.about__span {
+  color: #fff;
+}
+.about__name {
+  color: #fff;
+  padding-top: 100px;
+  padding-left: 90px;
+}
+.about__name img {
+  position: relative;
+  top: 7px;
+}
+.about__title {
+  padding-left: 90px;
+  color: #fff;
+  font-size: 36px;
+  width: 580px;
+  margin-top: 35px;
+}
+.about__text {
+  padding-left: 90px;
+  margin-top: 35px;
+  color: #fff;
+  line-height: 1.5;
+  padding-right: 90px;
+}
+
+.promise {
+  padding-top: 200px;
+  padding-bottom: 150px;
+}
+.promise__name {
+  color: #5D62B5;
+  font-size: 12px;
+}
+.promise__name img {
+  position: relative;
+  top: 8px;
+}
+.promise__title {
+  color: #000;
+  font-size: 36px;
+  font-weight: 800;
+  margin-top: 35px;
+}
+.promise__wrap {
+  display: flex;
+  margin-top: 100px;
+}
+.promise__card {
+  display: flex;
+  gap: 27px;
+}
+.promise__card img {
+  position: relative;
+  top: -60px;
+}
+.promise__subtitle {
+  color: #F2726F;
+  font-size: 19px;
+  margin-bottom: 20px;
+  font-weight: 800;
+}
+.promise__text {
+  color: #4B4B4B;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.nemo {
+  padding-bottom: 100px;
+  z-index: -5;
+}
+.nemo__wrap {
+  background-color: #29C3BE;
+  height: 500px;
+  position: relative;
+  z-index: -4;
+}
+.nemo__blob {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+.nemo__dots {
+  position: absolute;
+  bottom: 60px;
+  z-index: -3;
+}
+.nemo__pup {
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  z-index: 1;
+}
+.nemo__line {
+  position: absolute;
+  top: 0;
+  right: 80px;
+}
+.nemo__ball {
+  position: absolute;
+  top: 100px;
+  right: 55px;
+}
+.nemo__title {
+  width: 500px;
+  padding-left: 90px;
+  color: #fff;
+  font-size: 36px;
+  width: 580px;
+  margin-top: 35px;
+  position: absolute;
+  top: 112px;
+  right: 110px;
+}
+.nemo__btn {
+  position: absolute;
+  top: 300px;
+  right: 500px;
+}/*# sourceMappingURL=main.css.map */
